@@ -1,0 +1,1 @@
+./configure --with-debug --prefix=/home/linux/share/servers --add-module=/home/linux/share/module/ngx_http_test_module
