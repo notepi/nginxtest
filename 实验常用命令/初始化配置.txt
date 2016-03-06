@@ -1,1 +1,13 @@
-./configure --with-debug --prefix=/home/linux/share/servers --add-module=/home/linux/share/module/ngx_http_test_module
+﻿#打开调试
+./configure --with-debug					
+#设置编译生成路径			 
+--prefix=/home/linux/share/servers 
+#添加模块地址
+--add-module=/home/linux/share/module/ngx_http_test_module
+
+
+
+
+#编译，使用
+make
+make install

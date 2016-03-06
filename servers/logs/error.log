@@ -1,0 +1,2 @@
+2016/03/05 18:36:50 [error] 13201#0: *13 open() "/home/linux/share/servers/html/favicon.ico" failed (2: No such file or directory), client: 192.168.174.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.174.128"
+2016/03/05 18:38:53 [error] 13201#0: *16 open() "/home/linux/share/servers/html/favicon.ico" failed (2: No such file or directory), client: 192.168.174.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.174.128", referrer: "http://192.168.174.128/"

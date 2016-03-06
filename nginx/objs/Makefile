@@ -97,9 +97,6 @@ HTTP_INCS = -I src/http \
 	-I src/http/modules
 
 
-ADDON_DEPS = $(CORE_DEPS)  $(HTTP_DEPS)
-
-
 objs/nginx:	objs/src/core/nginx.o \
 	objs/src/core/ngx_log.o \
 	objs/src/core/ngx_palloc.o \
@@ -206,7 +203,6 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_browser_module.o \
 	objs/src/http/modules/ngx_http_upstream_ip_hash_module.o \
 	objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
-	objs/addon/ngx_http_test_module/ngx_http_ngx_module.o \
 	objs/ngx_modules.o
 
 	$(LINK) -o objs/nginx \
@@ -316,7 +312,6 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_browser_module.o \
 	objs/src/http/modules/ngx_http_upstream_ip_hash_module.o \
 	objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
-	objs/addon/ngx_http_test_module/ngx_http_ngx_module.o \
 	objs/ngx_modules.o \
 	-lpthread -lcrypt -lpcre -lz
 	
@@ -1069,13 +1064,6 @@ objs/src/http/modules/ngx_http_upstream_keepalive_module.o:	$(CORE_DEPS) $(HTTP_
 	$(CC) -c $(CFLAGS) $(CORE_INCS) $(HTTP_INCS) \
 		-o objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
 		src/http/modules/ngx_http_upstream_keepalive_module.c
-
-
-objs/addon/ngx_http_test_module/ngx_http_ngx_module.o:	$(ADDON_DEPS) \
-	/home/linux/share/module/ngx_http_test_module/ngx_http_ngx_module.c
-	$(CC) -c $(CFLAGS)  $(ALL_INCS) \
-		-o objs/addon/ngx_http_test_module/ngx_http_ngx_module.o \
-		/home/linux/share/module/ngx_http_test_module/ngx_http_ngx_module.c
 
 
 manpage:	objs/nginx.8

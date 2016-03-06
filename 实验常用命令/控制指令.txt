@@ -1,0 +1,11 @@
+﻿#启动
+/home/linux/share/servers/sbin/nginx
+
+#使运行的的nginx重读配置选项并生效
+/home/linux/share/servers/sbin/nginx -s reload
+
+#快速停止服务
+/home/linux/share/servers/sbin/nginx -s stop
+
+#优雅的停止服务
+/home/linux/share/servers/sbin/nginx -s quit

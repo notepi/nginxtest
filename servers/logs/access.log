@@ -1,0 +1,7 @@
+
+192.168.174.1 - - [05/Mar/2016:18:36:50 -0800] "GET /favicon.ico HTTP/1.1" 404 570 "-" "Mozilla/4.0 (compatible; MSIE 7.0; LBBROWSER)"
+192.168.174.1 - - [05/Mar/2016:18:36:59 -0800] "-" 400 0 "-" "-"
+192.168.174.1 - - [05/Mar/2016:18:38:22 -0800] "-" 400 0 "-" "-"
+192.168.174.1 - - [05/Mar/2016:18:38:52 -0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER"
+192.168.174.1 - - [05/Mar/2016:18:38:53 -0800] "GET /favicon.ico HTTP/1.1" 404 570 "http://192.168.174.128/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.154 Safari/537.36 LBBROWSER"
+192.168.174.1 - - [05/Mar/2016:18:39:09 -0800] "-" 400 0 "-" "-"

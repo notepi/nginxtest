@@ -157,7 +157,7 @@ gcc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/autotest.c
 ----------------------------------------
 checking for crypt()
 
-/tmp/ccBpDLqP.o：在函数‘main’中：
+/tmp/cc8udD3q.o：在函数‘main’中：
 autotest.c:(.text+0x19)：对‘crypt’未定义的引用
 collect2: error: ld returned 1 exit status
 ----------
@@ -268,7 +268,7 @@ checking for statvfs()
 ----------------------------------------
 checking for dlopen()
 
-/tmp/ccgfY3Uh.o：在函数‘main’中：
+/tmp/ccKNqUH5.o：在函数‘main’中：
 autotest.c:(.text+0x19)：对‘dlopen’未定义的引用
 collect2: error: ld returned 1 exit status
 ----------
@@ -419,7 +419,7 @@ checking for time_t size
 ----------------------------------------
 checking for setproctitle()
 
-/tmp/cc0jSbnZ.o：在函数‘main’中：
+/tmp/ccBDeA9L.o：在函数‘main’中：
 autotest.c:(.text+0x11)：对‘setproctitle’未定义的引用
 collect2: error: ld returned 1 exit status
 ----------
@@ -448,7 +448,7 @@ checking for pwrite()
 ----------------------------------------
 checking for sys_nerr
 
-/tmp/ccXPfgM7.o：在函数‘main’中：
+/tmp/ccqFWbi1.o：在函数‘main’中：
 autotest.c:(.text+0xa): 警告： `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead
 135
 ----------------------------------------
@@ -478,7 +478,7 @@ checking for System V shared memory
 ----------------------------------------
 checking for POSIX semaphores
 
-/tmp/ccWfn1L2.o：在函数‘main’中：
+/tmp/ccWnxNGs.o：在函数‘main’中：
 autotest.c:(.text+0x2d)：对‘sem_init’未定义的引用
 autotest.c:(.text+0x45)：对‘sem_destroy’未定义的引用
 collect2: error: ld returned 1 exit status

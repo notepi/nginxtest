@@ -1,4 +1,4 @@
-#define NGX_CONFIGURE " --with-debug --prefix=/home/linux/share/servers --add-module=/home/linux/share/module/ngx_http_test_module"
+#define NGX_CONFIGURE " --with-debug --prefix=/home/linux/share/servers"
 
 #ifndef NGX_DEBUG
 #define NGX_DEBUG  1
